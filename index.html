@@ -5,6 +5,70 @@
 <title></title>
 </head>
 <body>
-<img src="52196720808019245821751985913874.jpg" alt="" />
+    
+    <div class="art-container">
+       
+        <img   src="FLaBw0gVEAUvCJ5.jpeg"  alt="Art by @wari26d" class="blur-img">
+        
+       
+        <div class="overlay">
+            <p>作品版权归原作者所有</p>
+            <a href="https://x.com/wari26d/status/1492523014378127360?s=20" target="_blank" class="btn-link">查看画师原帖</a>
+        </div>
+    </div>
+    <style type="text/css">
+    /* 容器设置 */
+.art-container {
+  position: relative;
+  width: 100%;
+  max-width: 1800px; /* 根据你的雏形调整宽度 */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+
+
+/* 悬停层：默认透明 */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.4); /* 半透明遮罩 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* 文字和按钮样式 */
+.overlay p {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.btn-link {
+  padding: 8px 16px;
+  background-color: #ffb7c5; /* 樱花粉色，很搭高木同学 */
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 14px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+
+.art-container:hover .overlay {
+  opacity: 1; /* 浮现提示文字和按钮 */
+}
+
+
+    </style>
 </body>
 </html>
